@@ -1,0 +1,23 @@
+{
+  "name": "library-book-management",
+  "version": "1.0.0",
+  "description": "MongoDB Library Book Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "library",
+    "books"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mangodb": "^1.0.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^7.0.0"
+  }
+}
